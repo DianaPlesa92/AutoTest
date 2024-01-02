@@ -1,0 +1,48 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "headlessTest": "npm run test -- --headless",
+    "chromeTest": "npm run test -- --browser chrome",
+    "headTestDashboard": "npm run test -- --headed --record --key 5d82889d-53b7-472f-ba9e-376da7c50c31",
+    "headlessTestDashboard": "npm run test -- --headless --record --key 5d82889d-53b7-472f-ba9e-376da7c50c31",
+    "runAccViewSpec": "npm run test -- --headless --spec 'cypress/integration/ApproveAccountingView.feature'"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumber-json/result.json"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-recurse": "^1.13.1",
+    "cypress-on-fix": "^1.0.2",
+    "cypress-repeat": "^2.3.0",
+    "cypress-wait-until": "^1.7.1",
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress-real-events": "^1.11.0",
+    "dayjs": "^1.10.7",
+    "ip": "^1.1.5",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "sftp-upload": "^1.0.3",
+    "simple-ssh": "^1.0.0",
+    "ssh2-sftp-client": "^7.2.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "environment": "stage",
+    "clientId": "9120005",
+    "clientDescription": "Auto test only 5",
+    "additionalClient": "9120004",
+    "companyCustomerId": "54464",
+    "privateCustomerId": "54463",
+    "brRegCustomerId": "54584",
+    "companyCustomerIdStatic": "54465",
+    "privateCustomerIdStatic": "54466",
+    "privateCustomerName": "AutoTest1",
+    "companyCustomerName": "AutoTest2",
+    "companyCustomerNameStatic": "AutoTest3"
+}

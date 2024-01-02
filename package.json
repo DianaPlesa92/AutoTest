@@ -26,14 +26,14 @@
     "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
-    "cypress-recurse": "^1.13.1",
     "cypress-on-fix": "^1.0.2",
+    "cypress-recurse": "^1.13.1",
     "cypress-repeat": "^2.3.0",
     "cypress-wait-until": "^1.7.1",
     "multiple-cucumber-html-reporter": "^1.18.3"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
     "@cypress/browserify-preprocessor": "latest",
     "cypress-real-events": "^1.11.0",
     "dayjs": "^1.10.7",
